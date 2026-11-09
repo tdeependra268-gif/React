@@ -1,14 +1,14 @@
 
 import React from 'react';
 
-export default function ProfileCard(props) {
+export default function ProfileCard(userData) {
 
-   let userData = props.userData;
+//    let userData = props;
     return(
         <div className="card">
             <img src={userData.imageUrl} alt="avatar" />
-        <h2></h2>
-            <h3></h3>
+             <h2>{userData.userName}</h2>
+            <h3>{userData.role}</h3>
             <button className="btn">View Profile</button>
         </div>
     )
