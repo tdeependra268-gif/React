@@ -1,0 +1,25 @@
+.card {
+  border: 2px solid black;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px ;
+  color: white;
+  background-color: #616060;
+}
+
+* {
+  background-color: #141414;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+}
